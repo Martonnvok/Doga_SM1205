@@ -1,0 +1,83 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "dolgozat",
+    "dateExported": "2023-12-05T10:28:46.220Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "40877dd2-bade-4525-b440-f57a57be54e7",
+            "colId": "5ec7cd14-8a5d-4467-be6d-5e3910b7fb7c",
+            "containerId": "",
+            "name": "1 feladat",
+            "url": "/agencies/withes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-05T08:53:11.345Z",
+            "modified": "2023-12-05T09:12:32.208Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "77beb77b-869f-418a-a2ed-994a239b11f4",
+            "colId": "5ec7cd14-8a5d-4467-be6d-5e3910b7fb7c",
+            "containerId": "",
+            "name": "4 feladat",
+            "url": "/participates/hozzaad?present=True&limit=200",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-12-05T09:26:17.235Z",
+            "modified": "2023-12-05T10:26:43.981Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "present",
+                    "value": "True",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "200",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "12d28691-2e26-461a-846c-c68a385a082a",
+            "colId": "5ec7cd14-8a5d-4467-be6d-5e3910b7fb7c",
+            "containerId": "",
+            "name": "2 feladat",
+            "url": "/participates/jelenlet?name=Gizi&present=True&agency_id=2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-05T09:59:53.915Z",
+            "modified": "2023-12-05T10:22:22.968Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Gizi",
+                    "isPath": false
+                },
+                {
+                    "name": "present",
+                    "value": "True",
+                    "isPath": false
+                },
+                {
+                    "name": "agency_id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:8000/api"
+        }
+    }
+}

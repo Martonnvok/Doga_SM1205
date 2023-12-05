@@ -27,7 +27,7 @@ return new class extends Migration
         ]);
 
         Event::create([
-            'date' => "2000-02-02", 
+            'date' => "2023-12-05", 
             'agency_id' => 2, 
             'limit' => 200
         ]);

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AgencyController;
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\ParticipatesController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,4 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/agencies/withes', [AgencyController::class, 'withes']);
+Route::post('/events/update', [EventController::class, 'update']);
+Route::post('/participates/hozzaad', [ParticipatesController::class, 'ujEsemenyHozzaAd']);
+Route::put('/participates/jelenlet', [ParticipatesController::class, 'jelenLet']);
 

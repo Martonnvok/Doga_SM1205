@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
-    public function update(Request $request, $id){
-        $event = Event::find($id);
+    public function update(Request $request){
+        $event = new Event();
         $event->event_id = $request->event_id;
         $event->date = $request->date;
         $event->agency_id = $request->agency_id;
